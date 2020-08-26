@@ -1,0 +1,25 @@
+body
+{
+  background: #2D3142; 
+}
+#title
+{
+  color: #2D3142;
+  font-size: 40px;
+  font-style: arial;
+  background-color: #EF8354;
+  padding: 1px;
+  margin: 5px;
+}
+.x
+{
+  width: 700pt;
+  margin: 5px;
+  border: 2px solid black;
+  background-color: grey;
+  padding: 10px;
+}
+#reno
+{
+  padding: 10px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet"  type="text/css" href="screen.css">
+</head>
+<body>
+            
+<div id="title"><b>
+  Filter Fun
+  </b></div>
+<canvas id="cann1" class="x"></canvas>
+<canvas id="cann2" class="x"></canvas>
+<div id="reno">
+  <b>front-image:</b><input type="file" 
+       id="can" multiple="false" accept="image/*" onchange="fgimg()">
+  <b>background-image:</b> <input type="file" accept="image/*"
+       id="cano" multiple="false" onchange="bgimg()">
+</div>
+<div id="reno">
+  <input style="margin-right:16px" type = "button"
+       value = "Create Composite"
+       onclick = "doGreenScreen()">
+    <input style="margin-right:16px" type = "button"
+       value = "Clear Canvases"
+       onclick = "clearCanvas()">
+</div>
+<script src = "https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" ></script>
+<script src="ad.js"></script>
+</body>
+</html>
